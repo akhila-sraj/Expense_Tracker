@@ -69,5 +69,6 @@ The app allows users to track income, add multiple named expenses, view an expen
 
 - Convert into a desktop app (Electron / Tauri)
 
-## Built by Akhila 
+ ~Built by Akhila 
+
 
