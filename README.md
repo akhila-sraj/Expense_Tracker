@@ -69,6 +69,10 @@ The app allows users to track income, add multiple named expenses, view an expen
 
 - Convert into a desktop app (Electron / Tauri)
 
+  ## Live Demo:
+   https://akhila-sraj.github.io/Expense_Tracker/
+
  ~Built by Akhila 
+
 
 
