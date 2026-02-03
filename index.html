@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+  <div class="container">
+   
+ <h1><b>Expense Tracker</b></h1>
+    <div class="layout">
+
+        <!--LEFT PANEL -->
+      <section class="input-panel">
+        <h2>Set your budget</h2>
+        <div class="inputs">
+          <input type="number" id="income" placeholder="Monthly Income">
+          <input type="number" id="food" placeholder="Food Expense">
+          <input type="number" id="rent" placeholder="Rent">
+          <input type="number" id="others" placeholder="Other Expenses">
+        </div>
+        <div id="extra-expenses"></div>
+        <button id="add-expense">+ Add Expense</button>
+        <div class="buttons">
+          <button id="save">Save</button>
+          <button id="reset">Reset</button>
+          <button id="dark">Dark Mode</button>
+        </div>
+      </section>
+
+      <!-- RIGHT PANEL -->
+      <section class="right-panel">
+        <div class="chart-section">
+          <h2>Expense Breakdown</h2>
+          <canvas id="expenseChart"></canvas>
+        </div>
+        <div class="summary" align="center">
+            <div id="expense-list"></div>
+          <h2>Expense Summary</h2>
+          <p>Total Income: Rs.<span id="total-income">0</span></p>
+          <p>Total Expenses: Rs.<span id="total-expenses">0</span></p>
+          <p>Savings: Rs.<span id="savings">0</span></p>
+
+          
+        </div>
+
+      </section>
+    </div>
+  </div>
+</body>
+</html>
